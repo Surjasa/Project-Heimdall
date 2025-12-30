@@ -8,7 +8,7 @@ import sys
 import os
 
 # Add parent directory to path for imports
-sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+sys.path.append(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
 
 from src.utils.topic_recovery import TopicRecoveryManager, create_topic_recovery_manager
 from src.utils.logging_config import get_logger

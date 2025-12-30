@@ -1,0 +1,1 @@
+# Validation Tests - Clean-room and environment verification
