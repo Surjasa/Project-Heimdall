@@ -10,7 +10,7 @@ from decimal import Decimal
 from datetime import datetime
 
 # Add src to path
-sys.path.append('src')
+sys.path.append(os.path.join(os.path.dirname(__file__), '..', '..', 'src'))
 
 # Mock the external dependencies for testing
 class MockLLMObs:
